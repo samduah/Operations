@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>License Requirement Checklist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+        .checklist li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            transition: 0.3s;
+            color: #333;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .checklist li input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .sublist {
+            list-style-type: none;
+            padding-left: 30px;
+            margin-top: 5px;
+        }
+        .sublist li {
+            display: flex;
+            align-items: center;
+        }
+        .sublist li input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .progress {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>License Requirement Checklist</h2>
+        <ul class="checklist" id="checklist">
+            <li><input type="checkbox"> Company Profile
+                <ul class="sublist">
+                    <li><input type="checkbox"> Overview of the Company</li>
+                    <li><input type="checkbox"> Registered Business Address</li>
+                    <li><input type="checkbox"> Registration Documents</li>
+                    <li><input type="checkbox"> Details of External Auditors/Accountants</li>
+                    <li><input type="checkbox"> Business Operating Permit</li>
+                    <li><input type="checkbox"> Rent/Leasehold Agreement</li>
+                </ul>
+            </li>
+            <li><input type="checkbox"> Governance Documents
+                <ul class="sublist">
+                    <li><input type="checkbox"> Profile of Shareholders</li>
+                    <li><input type="checkbox"> Shareholders Agreement & Certificates</li>
+                    <li><input type="checkbox"> Proof of 30% Ghanaian Shareholding</li>
+                    <li><input type="checkbox"> Proof of Funds & Capital Registration</li>
+                    <li><input type="checkbox"> Attestation of Foreign Beneficial Owners</li>
+                    <li><input type="checkbox"> Board of Directors Profile</li>
+                    <li><input type="checkbox"> Organizational Chart</li>
+                    <li><input type="checkbox"> Board Charter</li>
+                    <li><input type="checkbox"> Promoter Profiles</li>
+                </ul>
+            </li>
+            <li><input type="checkbox"> Business Plan
+                <ul class="sublist">
+                    <li><input type="checkbox"> Business Overview</li>
+                    <li><input type="checkbox"> Market Analysis</li>
+                    <li><input type="checkbox"> Products & Services</li>
+                    <li><input type="checkbox"> Transactional Limits</li>
+                    <li><input type="checkbox"> Onboarding Process</li>
+                    <li><input type="checkbox"> Fees & Commissions</li>
+                    <li><input type="checkbox"> Five-Year Financial Projections</li>
+                </ul>
+            </li>
+            <li><input type="checkbox"> Systems & Technology
+                <ul class="sublist">
+                    <li><input type="checkbox"> ICT Systems</li>
+                    <li><input type="checkbox"> ICT Architecture Diagram</li>
+                    <li><input type="checkbox"> Security & Control Measures</li>
+                    <li><input type="checkbox"> Transaction & Fraud Monitoring Tools</li>
+                    <li><input type="checkbox"> Business Continuity Program</li>
+                    <li><input type="checkbox"> Data Protection Certificate</li>
+                    <li><input type="checkbox"> ISO 27001 & PCI DSS Compliance</li>
+                    <li><input type="checkbox"> EV-SSL & Vulnerability Assessment</li>
+                    <li><input type="checkbox"> ICT Risk Assessment</li>
+                </ul>
+            </li>
+            <li><input type="checkbox"> Enterprise Risk Management
+                <ul class="sublist">
+                    <li><input type="checkbox"> Operational & Market Risk Mitigation</li>
+                    <li><input type="checkbox"> Liquidity & Credit Risk Mitigation</li>
+                    <li><input type="checkbox"> Fraud & Legal Risk Measures</li>
+                    <li><input type="checkbox"> Business Impact Assessment</li>
+                    <li><input type="checkbox"> AML/CFT Policy</li>
+                </ul>
+            </li>
+            <li><input type="checkbox"> Consumer Protection Policy
+                <ul class="sublist">
+                    <li><input type="checkbox"> Guided by Consumer Recourse Mechanism Guidelines</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="progress" id="progress">Progress: 0%</div>
+    </div>
+</body>
+</html>
